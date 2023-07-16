@@ -1,0 +1,162 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css);
+
+a {
+  color:white;
+}
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 32px;
+  line-height: 38px;
+  color:black;
+}
+
+header {
+  background: #007765;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  float: left;
+}
+
+.nav {
+  float: right;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 45px;
+  font-size: 24px;
+}
+
+.nav a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1219px;
+  margin: 0 auto;
+  padding: 0 55px;
+  color: black;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.green_banner {
+  background: url(/img/image\ \(1\).png) center no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 84px;
+  text-align: center;
+  font-weight: 500;
+  max-width: 1219px;
+}
+
+.grey_block {
+  background: #eeeeee center no-repeat;
+  margin-top: 0 auto;
+  padding: 30px 0px 100px;
+}
+
+p.title {
+  color: #007765;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+  text-align: center;
+}
+
+.blue_banner {
+  background: url(/img/123.png) center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 135px 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-style: italic;
+  color: #ffffff;
+  line-height: 56px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.icon {
+  width: 115px;
+  height: 115px;
+  float: left;
+  padding-right: 45px;
+}
+
+p.icon {
+  line-height: 115px;
+}
+
+.team {
+  width: 33.333333%;
+  float: left;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+img .face {
+  width: 168px;
+}
+
+p.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  text-align: center;
+}
+
+p.occupation {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.footer {
+  background: #333333;
+  padding: 20px;
+}
+
+p.footer_text {
+  width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 30px;
+}
